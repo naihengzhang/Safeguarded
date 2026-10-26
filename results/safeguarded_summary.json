@@ -1,0 +1,43 @@
+{
+  "n_categories": 9,
+  "n_paired_settings": 270,
+  "category_AP_deltas": {
+    "candle": 0.007113245035222149,
+    "chewinggum": 0.011994528085008893,
+    "fryum": 0.0073462546118447936,
+    "macaroni1": 0.018706926028743243,
+    "macaroni2": -0.0009447144124498097,
+    "pcb2": 0.001895348259988272,
+    "pcb3": 0.005480251841395889,
+    "pcb4": 0.01078906977059968,
+    "pipe_fryum": 0.005306907811410855
+  },
+  "macro_AP_delta": 0.007520868559084885,
+  "category_bootstrap_95_CI": [
+    0.004100571654870914,
+    0.01119990458188078
+  ],
+  "one_sided_exact_signflip_p": 0.00390625,
+  "proposed_AP": 0.843185012664024,
+  "proposed_AUROC": 0.8050325520833334,
+  "proposed_FPR": 0.10121527777777778,
+  "proposed_TPR": 0.4826388888888889,
+  "frozen_AP": 0.8356641441049392,
+  "frozen_AUROC": 0.7928472222222221,
+  "frozen_FPR": 0.10121527777777778,
+  "frozen_TPR": 0.4826388888888889,
+  "full_AP": 0.8403697179432416,
+  "full_AUROC": 0.8012659143518519,
+  "full_FPR": 0.05162037037037037,
+  "full_TPR": 0.4148148148148148,
+  "confidence_AP": 0.8356641441049392,
+  "confidence_AUROC": 0.7928472222222221,
+  "confidence_FPR": 0.10121527777777778,
+  "confidence_TPR": 0.4826388888888889,
+  "confidence_safe_AP": 0.8356641441049392,
+  "confidence_safe_AUROC": 0.7928472222222221,
+  "confidence_safe_FPR": 0.10121527777777778,
+  "confidence_safe_TPR": 0.4826388888888889,
+  "signflip_definition": "complete enumeration of all 2^9 sign assignments; no Monte Carlo plus-one correction",
+  "bootstrap_seed": 20260922
+}

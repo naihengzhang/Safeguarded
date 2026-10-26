@@ -1,0 +1,84 @@
+{
+  "dataset": "KSDD2",
+  "official_train_test_split": true,
+  "parameter_source": "VisA development categories only; no KSDD2 label-based tuning",
+  "settings": 30,
+  "test_images": 1004,
+  "test_normal": 894,
+  "test_defect": 110,
+  "lambda": 0.5,
+  "methods": {
+    "benefit_safe": {
+      "AP": 0.7605494624301044,
+      "AUROC": 0.9068639414276998,
+      "FPR": 0.07449664429530203,
+      "TPR": 0.7081818181818185,
+      "acceptance": 0.6374999999999998
+    },
+    "confidence_safe": {
+      "AP": 0.7590624004107677,
+      "AUROC": 0.9062395769778319,
+      "FPR": 0.07449664429530203,
+      "TPR": 0.7081818181818185,
+      "acceptance": 0.0
+    },
+    "direct_full": {
+      "AP": 0.7544414713977,
+      "AUROC": 0.901645990102366,
+      "FPR": 0.05861297539149889,
+      "TPR": 0.6812121212121213,
+      "acceptance": 0.6374999999999998
+    },
+    "frozen": {
+      "AP": 0.7590624004107677,
+      "AUROC": 0.9062395769778319,
+      "FPR": 0.07449664429530203,
+      "TPR": 0.7081818181818185,
+      "acceptance": 0.0
+    },
+    "full_safe": {
+      "AP": 0.7605494624301044,
+      "AUROC": 0.9068639414276998,
+      "FPR": 0.07449664429530203,
+      "TPR": 0.7081818181818185,
+      "acceptance": 0.6374999999999998
+    },
+    "local_safe": {
+      "AP": 0.7605494624301044,
+      "AUROC": 0.9068639414276998,
+      "FPR": 0.07449664429530203,
+      "TPR": 0.7081818181818185,
+      "acceptance": 0.6374999999999998
+    },
+    "rate_matched_safe": {
+      "AP": 0.7619619274357351,
+      "AUROC": 0.9070015592163243,
+      "FPR": 0.07449664429530203,
+      "TPR": 0.7081818181818185,
+      "acceptance": 0.6383333333333333
+    },
+    "unconditional_safe": {
+      "AP": 0.7610312737992416,
+      "AUROC": 0.9072176462612702,
+      "FPR": 0.07449664429530203,
+      "TPR": 0.7081818181818185,
+      "acceptance": 0.8000000000000003
+    }
+  },
+  "full_safe_minus_frozen": {
+    "seed_deltas": [
+      -0.0031921596473415415,
+      0.0002640020498932971,
+      -0.0001972583714497933,
+      0.0018330431256060598,
+      0.008727682939975057
+    ],
+    "mean": 0.0014870620193366158,
+    "seed_bootstrap_95_CI": [
+      -0.0014958867533050534,
+      0.005342210583942353
+    ],
+    "one_sided_exact_seed_signflip_p": 0.3125,
+    "caution": "Seeds vary stream construction but share the official test identities; this is a blocked robustness analysis, not five independent datasets."
+  }
+}

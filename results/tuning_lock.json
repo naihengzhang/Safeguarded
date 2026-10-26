@@ -1,0 +1,52 @@
+{
+  "confidence_multiplier": 0.5,
+  "rate_multiplier": 0.95,
+  "full_development_acceptance": 0.5770833333333333,
+  "rate_grid_results": [
+    {
+      "mult": 0.75,
+      "acceptance": 0.0
+    },
+    {
+      "mult": 0.775,
+      "acceptance": 0.02361111111111111
+    },
+    {
+      "mult": 0.8,
+      "acceptance": 0.042361111111111106
+    },
+    {
+      "mult": 0.825,
+      "acceptance": 0.11319444444444447
+    },
+    {
+      "mult": 0.85,
+      "acceptance": 0.17847222222222225
+    },
+    {
+      "mult": 0.875,
+      "acceptance": 0.24513888888888888
+    },
+    {
+      "mult": 0.9,
+      "acceptance": 0.33819444444444446
+    },
+    {
+      "mult": 0.925,
+      "acceptance": 0.44930555555555557
+    },
+    {
+      "mult": 0.95,
+      "acceptance": 0.5819444444444444
+    },
+    {
+      "mult": 0.975,
+      "acceptance": 0.6708333333333335
+    },
+    {
+      "mult": 1.0,
+      "acceptance": 0.7145833333333335
+    }
+  ],
+  "matching_uses_AP_or_report_labels": false
+}

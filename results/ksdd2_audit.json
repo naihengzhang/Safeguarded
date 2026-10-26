@@ -1,0 +1,9 @@
+{
+  "dataset": "KSDD2",
+  "prediction_files": 30,
+  "method_setting_rows": 240,
+  "maximum_metric_recomputation_error": 1.1102230246251565e-16,
+  "maximum_safeguarded_decision_violations": 0,
+  "train_test_id_overlap": 0,
+  "official_split_counts_verified": true
+}

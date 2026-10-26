@@ -1,0 +1,13 @@
+{
+  "report_runs": 750,
+  "main_runs": 630,
+  "proposer_runs": 120,
+  "matched_confirmation_rows": 1080,
+  "max_AP_error": 1.1102230246251565e-16,
+  "source_dominance_violations": 0,
+  "identity_leakage_violations": 0,
+  "accepted_update_floor_violations": 0,
+  "min_full_final_margin_ratio": 0.8002124681029078,
+  "unit_tests_passed": 10,
+  "locked_primary_superiority": "frozen source; Holm-adjusted exact sign-flip p=0.0273 (confidence-safe is a numerically duplicate control)"
+}

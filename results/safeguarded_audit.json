@@ -1,0 +1,6 @@
+{
+  "prediction_files_checked": 270,
+  "metric_max_abs_error": 1.1102230246251565e-16,
+  "proposed_vs_frozen_decision_violations": 0,
+  "passed": true
+}

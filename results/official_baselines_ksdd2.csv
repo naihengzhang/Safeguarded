@@ -1,0 +1,5 @@
+method,training_variant,train_images,hidden_train_defects,seed,image_ap,image_auroc,pixel_auroc
+PatchCore,clean,60,0,2,0.8544474829446866,0.9478442139515966,NA
+PatchCore,contaminated,100,8,2,0.8547781744508626,0.9475289810860280,NA
+SoftPatch,clean,60,0,2,0.8484464420641870,0.9380516575147448,NA
+SoftPatch,contaminated,100,8,2,0.8507788312387377,0.9471730730119992,NA

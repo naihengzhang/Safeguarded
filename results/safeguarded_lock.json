@@ -1,0 +1,49 @@
+{
+  "development_categories": [
+    "cashew",
+    "capsules",
+    "pcb1"
+  ],
+  "development_seeds": [
+    0,
+    1
+  ],
+  "lambda_grid": [
+    0,
+    0.25,
+    0.5,
+    0.75,
+    1.0,
+    1.5,
+    2.0
+  ],
+  "mean_AP_by_lambda": {
+    "0": 0.7403033415470334,
+    "0.25": 0.7434373582237772,
+    "0.5": 0.745761039369121,
+    "0.75": 0.7456028053432869,
+    "1.0": 0.742055154131737,
+    "1.5": 0.7271941618300248,
+    "2.0": 0.7137754292428438
+  },
+  "selected_lambda": 0.5,
+  "selection_rule": "maximum mean development AP; source-threshold decisions preserved exactly",
+  "confirmation_categories": [
+    "candle",
+    "chewinggum",
+    "fryum",
+    "macaroni1",
+    "macaroni2",
+    "pcb2",
+    "pcb3",
+    "pcb4",
+    "pipe_fryum"
+  ],
+  "report_seeds": [
+    2,
+    3,
+    4,
+    5,
+    6
+  ]
+}
